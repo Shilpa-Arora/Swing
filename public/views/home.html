@@ -1,0 +1,50 @@
+<div class="container" id="aboutdiv">
+
+<br>
+<br>
+<br>
+<hr>
+<h3>Home</h3>
+<div id="homeDiv">
+<br>
+<br>
+<a id="lures" href="#">Load Lures</a>
+<div id="mainDiv"><br>
+<br><br>
+<br><p>“Only I can change my life. No one can do it for me”</p><br>
+<p>-Carol Burnett</p><br>
+<br><br>
+<br></div>
+<div id="lureList"></div>
+</div>
+<script>
+// JavaScript Document
+(function() {
+"use strict";
+var lureButton = document.querySelector("#lures");
+function loadlures () {
+console.log("hello");
+	$.getJSON("../views/quotes.json")
+
+	.done(function(quotes){
+		
+console.log(quotes);
+
+for (var i = 0; i<quotes.length; i++) {
+	document.querySelector("#lureList").innerHTML +=
+	'<p>'+quotes[i].quote+'</p>';
+}
+
+})	.fail(function(){
+		alert("browser outdated");
+	})
+}
+
+
+if(lureButton){
+lureButton.addEventListener("click", loadlures, false);
+}
+
+})();	
+</script>
+</div>

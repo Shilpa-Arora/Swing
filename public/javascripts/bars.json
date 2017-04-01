@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "label": "monday",
+      "n": 20
+    },
+    {
+      "label": "tuesday",
+      "n": 30
+    },
+    {
+      "label": "wednesday",
+      "n": 10
+    },
+    {
+      "label": "thursday",
+      "n": 5
+    },
+       {
+      "label": "friday",
+      "n": 20
+    },
+    {
+      "label": "saturday",
+      "n": 30
+    },
+    {
+      "label": "sunday",
+      "n": 10
+    }
+  ]
+}

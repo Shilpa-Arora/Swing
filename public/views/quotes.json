@@ -1,0 +1,12 @@
+[
+    {
+        "image" : "../images/bg.jpg",
+        "quote" : "How about some parasailing?How about some parasailing?How about some parasailing?",
+        "author" : "a"
+    },
+    {
+        "image" : "../images/bg.jpg",
+        "title" : "How about some boating?How about some boating?How about some boating?",
+        "paragraph" : "Just add on "    
+    }
+]

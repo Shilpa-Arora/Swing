@@ -1,0 +1,28 @@
+	<script type="text/javascript">
+		// TOUCH-EVENTS SINGLE-FINGER SWIPE-SENSING JAVASCRIPT
+		// Courtesy of PADILICIOUS.COM and MACOSXAUTOMATION.COM
+	
+		var fingerCount = 0;
+		var startX = 0;
+	
+		
+	</script>
+<div id="swipeBox" ontouchstart="touchStart(event,'swipeBox');" ontouchend="touchEnd(event);" ontouchmove="touchMove(event);" ontouchcancel="touchCancel(event);"></div>
+<script>
+	function processingRoutine() {
+	var swipedElement = document.getElementById(triggerElementID);
+	if ( swipeDirection == 'left' ) {
+		// REPLACE WITH YOUR ROUTINES
+		swipedElement.style.backgroundColor = 'orange';
+	} else if ( swipeDirection == 'right' ) {
+		// REPLACE WITH YOUR ROUTINES
+		swipedElement.style.backgroundColor = 'green';
+	} else if ( swipeDirection == 'up' ) {
+		// REPLACE WITH YOUR ROUTINES
+		swipedElement.style.backgroundColor = 'maroon';
+	} else if ( swipeDirection == 'down' ) {
+		// REPLACE WITH YOUR ROUTINES
+		swipedElement.style.backgroundColor = 'purple';
+	}
+}
+</script>
